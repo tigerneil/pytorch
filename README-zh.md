@@ -6,9 +6,8 @@ PyTorch 是提供两个高层特性的 Python 包:
 - 强 GPU 加速的张量计算（如 numpy）
 - 构建在基于 tape 的自动梯度计算系统上的深度神经网络
 
-You can reuse your favorite python packages such as numpy, scipy and Cython to extend PyTorch when needed.
-
-We are in an early-release Beta. Expect some adventures and rough edges.
+你可以重用自己喜欢的 python 包如 numpy，scipy 和 Cython 在需要的时候来扩展 PyTorch。
+目前仍在早期 beta 版本发布。使用过程可能会有一些挑战和艰辛。
 
 - [More About PyTorch](#more-about-pytorch)
 - [Installation](#installation)
@@ -20,16 +19,15 @@ We are in an early-release Beta. Expect some adventures and rough edges.
 - [Releases and Contributing](#releases-and-contributing)
 - [The Team](#the-team)
 
-| System | Python | Status |
+| 系统 | Python | 状态 |
 | --- | --- | --- |
 | Linux CPU | 2.7.8, 2.7, 3.5, nightly | [![Build Status](https://travis-ci.org/pytorch/pytorch.svg?branch=master)](https://travis-ci.org/pytorch/pytorch) |
 | Linux GPU | 2.7 | [![Build Status](http://build.pytorch.org:8080/buildStatus/icon?job=pytorch-master-py2)](https://build.pytorch.org/job/pytorch-master-py2) |
 | Linux GPU | 3.5 | [![Build Status](http://build.pytorch.org:8080/buildStatus/icon?job=pytorch-master-py3)](https://build.pytorch.org/job/pytorch-master-py3) |
 
-## More about PyTorch
-
-At a granular level, PyTorch is a library that consists of the following components:
-
+## 关于 PyTorch 更多信息
+At a granular level, PyTorch is a library that consists of the following components:粗
+粗略看来，PyTorch 是一个包含
 <table>
 <tr>
     <td><b> torch </b></td>
